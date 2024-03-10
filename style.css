@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    font-family:Merriweather, serif;
+
+
+}
+
+.topcontainer{
+    position: relative;
+    padding-top: 100px;
+    background-color: #e4f9f5;
+    cursor: pointer;
+}
+
+.topcontainer .topcloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.topcontainer h1{
+    font-family: Sacramento, cursive;
+    font-size: 90px;
+    color: #66bfbf;
+    padding:0 0 10px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.topcontainer h2{
+    font-family: Montserrat, sans-serif ;
+    font-size: 40px;
+    color: #66bfbf;
+    padding:0 0 10px;
+    margin: 34px 0;
+    cursor: pointer;
+
+}
+.topcontainer span{
+    text-decoration: underline;
+}
+.bottomcloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+/* --Middle Section */
+
+.Middle-Container{
+    display: block;
+    margin: 100px auto;
+}
+.Middle-Container .Pp{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.Middle-Container h2{
+    font-family: Montserrat, sans-serif ;
+    font-size: 40px;
+    color: #66bfbf;
+    padding: 10px;
+    margin: 34px 0;
+    cursor: pointer;
+}
+
+.Middle-Container p{
+    display: block;
+    width: 600px;
+    font-family: Merriweather, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #40514e;
+    padding: 10px;
+    margin: 0 666px;
+    text-align: center;
+    line-height: 24px;
+    
+}
+hr {
+    width: 76px;
+    border-top: 6px dotted;
+    border-right: 6px dotted;
+    border-left:6px dotted ;
+    color:lightgray ;
+    margin: 100px 900px;
+
+}
+/* ---skill Section */
+
+ /* Style for the parent grid */ 
+.parent-Grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Style for the child elements */
+.htmlgrid,
+.css-Grid,
+.htmlparGrid,
+.cssparGrid {
+    flex: 0 1 45%; /* Adjust the width as needed */
+}
+
+/* Style for the image inside child elements */
+.htmlgrid img,
+.css-Grid img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the text containers */
+.htmlparGrid,
+.cssparGrid {
+    text-align: center;
+}
+
+/* Additional styles for consistency */
+h3 {
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+
+/* --contact me */
+
+.contactme h3{
+    font-family: Montserrat, sans-serif;    ;
+    font-size: 19px;
+    color: #66bfbf;
+    margin-bottom: 20px;
+}
+.contactme p{
+    font-size: 16px;
+    color: #40514e;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 36px;
+}
+
+.ContactBtn{
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    background-color: #66bfbf;
+    color: white;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+
+    
+}
+
+/* ----Footer----- */
+
+.footerSection{
+    background-color: #66bfbf;
+    color: black;
+    padding: 50px 0 20px;
+}
+.footerSection ul li{
+    display: inline;
+    list-style: none;
+}
+.footerSection ul li a{
+
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    color: #11999e;
+   
+    margin: 10px 20px;
+}
+.footerSection p{
+    margin: 12px 0;
+    padding: 20px 0;
+    color: white;
+}
+
+.footerSection ul li a:hover{
+    color:#eaf6f6;
+}
+
+hr{
+    line-break: normal;
+}
